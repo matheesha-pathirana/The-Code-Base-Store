@@ -24,20 +24,20 @@ class App:
         GLabel_256.place(x=50,y=10,width=686,height=76)
 
         GButton_519=tk.Button(root)
-        GButton_519["bg"] = "#e9e9ed"
+        GButton_519["bg"] = "#333333"
         ft = tkFont.Font(family='Segoe UI',size=18)
         GButton_519["font"] = ft
-        GButton_519["fg"] = "#000000"
+        GButton_519["fg"] = "#e9e9ed"
         GButton_519["justify"] = "center"
         GButton_519["text"] = "Settings"
         GButton_519.place(x=1360,y=20,width=110,height=40)
         GButton_519["command"] = self.GButton_519_command
 
         GButton_48=tk.Button(root)
-        GButton_48["bg"] = "#e9e9ed"
+        GButton_48["bg"] = "#333333"
         ft = tkFont.Font(family='Segoe UI',size=18)
         GButton_48["font"] = ft
-        GButton_48["fg"] = "#000000"
+        GButton_48["fg"] = "#e9e9ed"
         GButton_48["justify"] = "center"
         GButton_48["text"] = "Account"
         GButton_48.place(x=1230,y=20,width=110,height=40)
@@ -52,10 +52,10 @@ class App:
         GLabel_897.place(x=0,y=120,width=392,height=49)
 
         GButton_820=tk.Button(root)
-        GButton_820["bg"] = "#e9e9ed"
+        GButton_820["bg"] = "#333333"
         ft = tkFont.Font(family='Segoe UI',size=24)
         GButton_820["font"] = ft
-        GButton_820["fg"] = "#000000"
+        GButton_820["fg"] = "#e9e9ed"
         GButton_820["justify"] = "center"
         GButton_820["text"] = "Cryptical Software"
         GButton_820.place(x=20,y=190,width=338,height=98)
