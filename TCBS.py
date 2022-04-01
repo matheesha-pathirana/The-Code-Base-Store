@@ -102,7 +102,7 @@ class App:
 
     def GButton_820_command(self):
         def tcbs_installer():
-            if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store/install/Utility-Software/main.py"):
+            if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py"):
                 import tkinter as tk
                 import tkinter.font as tkFont
 
@@ -152,7 +152,7 @@ class App:
                         exit()
 
                     def GButton_237_command(self):
-                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store/install/Utility-Software/main.py").read())
+                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py").read())
                         exit()
 
 
