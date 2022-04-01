@@ -16,7 +16,7 @@ import git
 class App:
     def __init__(self, root):
         #setting title
-        root.title("The Code Base Store")
+        root.title("The Code Base Store App")
         #setting window size
         width=1515
         height=892
@@ -31,7 +31,7 @@ class App:
         GLabel_256["font"] = ft
         GLabel_256["fg"] = "#333333"
         GLabel_256["justify"] = "left"
-        GLabel_256["text"] = "The Code Base Store"
+        GLabel_256["text"] = "The Code Base Store App"
         GLabel_256.place(x=50,y=10,width=686,height=76)
 
         GButton_519=tk.Button(root)
@@ -102,7 +102,7 @@ class App:
 
     def GButton_820_command(self):
         def tcbs_installer():
-            if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py"):
+            if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store App App/install/Utility-Software/main.py"):
                 import tkinter as tk
                 import tkinter.font as tkFont
 
@@ -152,7 +152,7 @@ class App:
                         exit()
 
                     def GButton_237_command(self):
-                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py").read())
+                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store App App/install/Utility-Software/main.py").read())
                         exit()
 
 
@@ -161,7 +161,7 @@ class App:
                     app = App(root)
                     root.mainloop()
             else:
-                main_dir = 'D:/OneDrive - adithya/Programming/Python/The Code Base Store/install'
+                main_dir = 'D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install'
                 os.mkdir(main_dir)
                 print("Directory '% s' is built!" % main_dir)
                 git.Git(main_dir).clone("https://github.com/matheesha-pathirana/Utility-Software.git")
@@ -213,7 +213,7 @@ class App:
 
                     def GButton_139_command(self):
                         exec(open(
-                            "D:/OneDrive - adithya/Programming/Python/The Code Base Store/install/Utility-Software/main.py").read())
+                            "D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py").read())
                         exit()
 
                     def GButton_980_command(self):
