@@ -102,7 +102,7 @@ class App:
 
     def GButton_820_command(self):
         def tcbs_installer():
-            # if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py"):
+            if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software/Utility-Software/main.py"):
                 import tkinter as tk
                 import tkinter.font as tkFont
 
@@ -152,7 +152,7 @@ class App:
                         exit()
 
                     def GButton_237_command(self):
-                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py").read())
+                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software/Utility-Software/main.py").read())
                         exit()
 
 
@@ -160,64 +160,64 @@ class App:
                     root = tk.Tk()
                     app = App(root)
                     root.mainloop()
-            # else:
-            #     main_dir = 'D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install'
-            #     os.mkdir(main_dir)
-            #     print("Directory '% s' is built!" % main_dir)
-            #     git.Git(main_dir).clone("https://github.com/matheesha-pathirana/Utility-Software.git")
-            #
-            #     import tkinter as tk
-            #     import tkinter.font as tkFont
-            #     import subprocess
-            #     class App:
-            #         def __init__(self, root):
-            #             # setting title
-            #             root.title("Installed Successfully!")
-            #             # setting window size
-            #             width = 500
-            #             height = 297
-            #             screenwidth = root.winfo_screenwidth()
-            #             screenheight = root.winfo_screenheight()
-            #             alignstr = '%dx%d+%d+%d' % (
-            #             width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
-            #             root.geometry(alignstr)
-            #             root.resizable(width=False, height=False)
-            #
-            #             GLabel_472 = tk.Label(root)
-            #             ft = tkFont.Font(family='Segoe UI', size=18)
-            #             GLabel_472["font"] = ft
-            #             GLabel_472["fg"] = "#333333"
-            #             GLabel_472["justify"] = "center"
-            #             GLabel_472["text"] = "Cryptical Software Installed Successfully !"
-            #             GLabel_472.place(x=10, y=20, width=481, height=56)
-            #
-            #             GButton_139 = tk.Button(root)
-            #             GButton_139["bg"] = "#333333"
-            #             ft = tkFont.Font(family='Segoe UI', size=18)
-            #             GButton_139["font"] = ft
-            #             GButton_139["fg"] = "#e9e9ed"
-            #             GButton_139["justify"] = "center"
-            #             GButton_139["text"] = "Launch"
-            #             GButton_139.place(x=70, y=180, width=150, height=50)
-            #             GButton_139["command"] = self.GButton_139_command
-            #
-            #             GButton_980 = tk.Button(root)
-            #             GButton_980["bg"] = "#333333"
-            #             ft = tkFont.Font(family='Segoe UI', size=18)
-            #             GButton_980["font"] = ft
-            #             GButton_980["fg"] = "#e9e9ed"
-            #             GButton_980["justify"] = "center"
-            #             GButton_980["text"] = "Exit"
-            #             GButton_980.place(x=270, y=180, width=150, height=50)
-            #             GButton_980["command"] = self.GButton_980_command
-            #
-            #         def GButton_139_command(self):
-            #             exec(open(
-            #                 "D:/OneDrive - adithya/Programming/Python/The Code Base Store App/install/Utility-Software/main.py").read())
-            #             exit()
-            #
-            #         def GButton_980_command(self):
-            #             exit()
+            else:
+                main_dir = 'D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software'
+                os.mkdir(main_dir)
+                print("Directory '% s' is built!" % main_dir)
+                git.Git(main_dir).clone("https://github.com/matheesha-pathirana/Utility-Software.git")
+
+                import tkinter as tk
+                import tkinter.font as tkFont
+                import subprocess
+                class App:
+                    def __init__(self, root):
+                        # setting title
+                        root.title("Installed Successfully!")
+                        # setting window size
+                        width = 500
+                        height = 297
+                        screenwidth = root.winfo_screenwidth()
+                        screenheight = root.winfo_screenheight()
+                        alignstr = '%dx%d+%d+%d' % (
+                        width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
+                        root.geometry(alignstr)
+                        root.resizable(width=False, height=False)
+
+                        GLabel_472 = tk.Label(root)
+                        ft = tkFont.Font(family='Segoe UI', size=18)
+                        GLabel_472["font"] = ft
+                        GLabel_472["fg"] = "#333333"
+                        GLabel_472["justify"] = "center"
+                        GLabel_472["text"] = "Cryptical Software Installed Successfully !"
+                        GLabel_472.place(x=10, y=20, width=481, height=56)
+
+                        GButton_139 = tk.Button(root)
+                        GButton_139["bg"] = "#333333"
+                        ft = tkFont.Font(family='Segoe UI', size=18)
+                        GButton_139["font"] = ft
+                        GButton_139["fg"] = "#e9e9ed"
+                        GButton_139["justify"] = "center"
+                        GButton_139["text"] = "Launch"
+                        GButton_139.place(x=70, y=180, width=150, height=50)
+                        GButton_139["command"] = self.GButton_139_command
+
+                        GButton_980 = tk.Button(root)
+                        GButton_980["bg"] = "#333333"
+                        ft = tkFont.Font(family='Segoe UI', size=18)
+                        GButton_980["font"] = ft
+                        GButton_980["fg"] = "#e9e9ed"
+                        GButton_980["justify"] = "center"
+                        GButton_980["text"] = "Exit"
+                        GButton_980.place(x=270, y=180, width=150, height=50)
+                        GButton_980["command"] = self.GButton_980_command
+
+                    def GButton_139_command(self):
+                        exec(open(
+                            "D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software/Utility-Software/main.py").read())
+                        exit()
+
+                    def GButton_980_command(self):
+                        exit()
 
                 if __name__ == "__main__":
                     root = tk.Tk()
