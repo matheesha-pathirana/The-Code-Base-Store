@@ -102,7 +102,7 @@ class App:
 
     def GButton_820_command(self):
         def tcbs_installer():
-            if os.path.exists("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software/Utility-Software/main.py"):
+            if os.path.exists("D:/The Code Base App Data/Utility Software/Utility-Software/main.py"):
                 import tkinter as tk
                 import tkinter.font as tkFont
 
@@ -152,7 +152,7 @@ class App:
                         exit()
 
                     def GButton_237_command(self):
-                        exec(open("D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software/Utility-Software/main.py").read())
+                        exec(open("D:/The Code Base App Data/Utility Software/Utility-Software/main.py").read())
                         exit()
 
 
@@ -161,7 +161,7 @@ class App:
                     app = App(root)
                     root.mainloop()
             else:
-                main_dir = 'D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software'
+                main_dir = 'D:/The Code Base App Data'
                 os.mkdir(main_dir)
                 print("Directory '% s' is built!" % main_dir)
                 git.Git(main_dir).clone("https://github.com/matheesha-pathirana/Utility-Software.git")
@@ -213,7 +213,7 @@ class App:
 
                     def GButton_139_command(self):
                         exec(open(
-                            "D:/OneDrive - adithya/Programming/Python/The Code Base Store App/Utility Software/Utility-Software/main.py").read())
+                            "D:/The Code Base App Data/Utility Software/Utility-Software/main.py").read())
                         exit()
 
                     def GButton_980_command(self):
