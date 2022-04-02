@@ -163,7 +163,6 @@ class App:
             else:
                 main_dir = 'D:/The Code Base App Data'
                 os.mkdir(main_dir)
-                print("Directory '% s' is built!" % main_dir)
                 git.Git(main_dir).clone("https://github.com/matheesha-pathirana/Utility-Software.git")
 
                 import tkinter as tk
